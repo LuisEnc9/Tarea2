@@ -1,0 +1,177 @@
+h1 {
+	 color: #2e3030;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #00f7ea;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+footer{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+header img {
+  width: 50%;
+  max-width: 150px;
+}
+
+body {
+	background: #2e3030;
+}
+
+
+.contenedor {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+/* Primer boton */
+.button {
+
+  font-family: 'Permanent Marker', cursive;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #2e3030;
+  border: none;
+  color: #00f7ea;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Segundo boton */
+
+.button2 {
+  font-family: 'Permanent Marker', cursive;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #2e3030;
+  border: none;
+  color: #00f7ea;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* tercer boton */
+
+.button3 {
+  font-family: 'Permanent Marker', cursive;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #2e3030;
+  border: none;
+  color: #00f7ea;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span {
+  padding-right: 25px;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
